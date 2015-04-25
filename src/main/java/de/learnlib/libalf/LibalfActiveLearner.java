@@ -19,14 +19,14 @@ package de.learnlib.libalf;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.learnlib.api.LearningAlgorithm;
-import de.learnlib.api.MembershipOracle;
-import de.learnlib.oracles.DefaultQuery;
 import net.automatalib.words.Alphabet;
 import net.automatalib.words.Word;
 import net.automatalib.words.WordBuilder;
+import de.learnlib.api.LearningAlgorithm;
+import de.learnlib.api.MembershipOracle;
+import de.learnlib.oracles.DefaultQuery;
 
-abstract class LibalfActiveLearner<M, I, D> extends LibalfLearner<M, I, D>
+public abstract class LibalfActiveLearner<M, I, D> extends LibalfLearner<M, I, D>
 		implements LearningAlgorithm<M, I, D> {
 	
 

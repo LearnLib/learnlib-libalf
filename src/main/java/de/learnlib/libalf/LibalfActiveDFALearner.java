@@ -21,7 +21,7 @@ import net.automatalib.words.Alphabet;
 import de.learnlib.api.LearningAlgorithm;
 import de.learnlib.api.MembershipOracle;
 
-class LibalfActiveDFALearner<I> extends LibalfActiveLearner<DFA<?,I>, I, Boolean>
+public class LibalfActiveDFALearner<I> extends LibalfActiveLearner<DFA<?,I>, I, Boolean>
 		implements LearningAlgorithm.DFALearner<I> {
 
 	public LibalfActiveDFALearner(LibAlf.AlgorithmID algId,
