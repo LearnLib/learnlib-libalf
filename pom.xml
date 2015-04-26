@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>de.learnlib</groupId>
 		<artifactId>learnlib-parent</artifactId>
-		<version>0.11.2-SNAPSHOT</version>
+		<version>0.11.2</version>
 	</parent>
 
 	<artifactId>learnlib-libalf</artifactId>
